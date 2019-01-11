@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6543f89-e5ab-4405-bca9-db66fd421e61" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ace-test-harness-hadoop" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.4503393">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/DaRunner.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="322">
+                  <caret line="61" column="47" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="47" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/Properties.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="463">
+                  <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
+                  <folding>
+                    <element signature="e#4787#4788#0" expanded="true" />
+                    <element signature="e#4813#4814#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/CSVFileInputFormatter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="132">
+                  <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/tensorflow/btree1k/test1/btreeinputs.Input.csv">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="13" selection-start-column="13" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/tensorflow/btree1k/test1/conf.properties">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="12">
+                  <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/csv/CSVProcessor.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="358">
+                  <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar://C:/devtools/hadoop-2.7.6/share/hadoop/common/lib/avro-1.7.4.jar!/org/apache/avro/file/DataFileWriter.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="174">
+                  <caret line="198" selection-start-line="198" selection-end-line="198" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="348">
+                  <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../hadoopdemo/da-hadoop-demo-1.0.1.72-18R1/source/com/experian/eda/da/hadoop/HadoopDecisionCounterMapper.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="276">
+                  <caret line="25" column="63" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="63" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../hadoopdemo/da-hadoop-demo-1.0.1.72-18R1/source/com/experian/eda/da/hadoop/HadoopDecisionCounter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="754">
+                  <caret line="76" selection-start-line="76" selection-end-line="76" />
+                  <folding>
+                    <element signature="e#0#4617#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../hadoopdemo/da-hadoop-demo-1.0.1.72-18R1/source/com/experian/eda/da/alpha/derived/Inputs.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+                  <folding>
+                    <element signature="e#0#1815#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../hadoopdemo/da-hadoop-demo-1.0.1.72-18R1/source/com/experian/eda/da/avro/AvroPostBurCsvConverter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="432">
+                  <caret line="54" column="53" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="53" />
+                  <folding>
+                    <element signature="e#0#6008#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/DaMapper.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="158">
+                  <caret line="34" column="74" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="74" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#5002#5003#0" expanded="true" />
+                    <element signature="e#5042#5043#0" expanded="true" />
+                    <element signature="e#5104#5105#0" expanded="true" />
+                    <element signature="e#5148#5149#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>csv</find>
+      <find>TextArrayWritable</find>
+      <find>result</find>
+      <find>entry</find>
+      <find>Fields</find>
+      <find>scche</find>
+      <find>schema</find>
+      <find>defaultValue</find>
+      <find>toString</find>
+      <find>Mapper</find>
+      <find>tensor</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>List&lt;String&gt;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/HadoopDecisioner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/DaReducerClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/OutputFormatter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/HadoopDecisionEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/btreeinputs.Input.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/HadoopJobRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/JobRunner.java" />
+        <option value="$PROJECT_DIR$/../../hadoopdemo/da-hadoop-demo-1.0.1.72-18R1/source/com/experian/eda/da/hadoop/HadoopDecisionCounterMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/MappedGroupCharacteristicWritable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/IMappedGroupCharacteristicWritable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/DaReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/CSVProcessor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/experian/eda/ace/hadoop/csv/CSVProcessorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/CSVFileInputFormatter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/tensorflow/btree1k/test1/conf.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/tensorflow/btree1k/test1/btreeinputs.Input.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/csv/CSVProcessor.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/DaMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/DaRunner.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="mavenHome" value="C:/devtools/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturityJava</id>
+          </State>
+          <State>
+            <id>JUnitJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavadocJava</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ace-test-harness-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-test-harness-hadoop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-test-harness-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-test-harness-hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-test-harness-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-test-harness-hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-test-harness-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-test-harness-hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-test-harness-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-test-harness-hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-test-harness-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-test-harness-hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="csv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-test-harness-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-test-harness-hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-test-harness-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-test-harness-hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-test-harness-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-test-harness-hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="test1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-test-harness-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-test-harness-hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-test-harness-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-test-harness-hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547226475435" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop" />
+    <property name="last_opened_file_path" value="C:/devtools/hadoop-2.7.6/share/hadoop/common/lib" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3402299" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.experian.eda.ace.hadoop.csv" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\git\ace-test-harness-hadoop\src\main\resources\tensorflow\linner_regression\test1" />
+      <recent name="C:\dev\git\ace-test-harness-hadoop\src\main\resources\tensorflow\" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.experian.eda.ace.hadoop.csv" />
+      <recent name="com.experian.eda.ace.hadoop" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\git\ace-test-harness-hadoop\src\main\resources\tensorflow\btree1k\test1" />
+      <recent name="C:\dev\git\ace-test-harness-hadoop\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.experian.eda.ace.hadoop" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DaRunner">
+    <configuration name="DaRunner" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <envs>
+        <env name="HADOOP_BIN_PATH" value="C:\devtools\hadoop-2.7.6\bin" />
+        <env name="HADOOP_CLIENT_OPTS" value="-Xmx512m -Xmx512m" />
+        <env name="HADOOP_CONF_DIR" value="c:\devtools\hadoop-2.7.6\etc\hadoop" />
+        <env name="HADOOP_DATANODE_OPTS" value="-Dhadoop.security.logger=ERROR,RFAS -Dhadoop.security.logger=ERROR,RFAS" />
+        <env name="HADOOP_HOME" value="C:\devtools\hadoop-2.7.6" />
+        <env name="HADOOP_IDENT_STRING" value="C55333A" />
+        <env name="HADOOP_NAMENODE_OPTS" value="-Dhadoop.security.logger=INFO,RFAS -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dhdfs.audit.logger=INFO,NullAppender" />
+        <env name="HADOOP_SECONDARYNAMENODE_OPTS" value="-Dhadoop.security.logger=INFO,RFAS -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dhdfs.audit.logger=INFO,NullAppender" />
+        <env name="HADOOP_SECURE_DN_LOG_DIR" value="\" />
+        <env name="HADOOP_SECURITY_LOGGER" value="INFO,RFAS" />
+        <env name="PATH" value="%PATH%;C:\devtools\hadoop-2.7.6\bin;C:\devtools\hadoop-2.7.6" />
+        <env name="TF_CPP_MIN_VLOG_LEVEL" value="10" />
+        <env name="TF_CPP_MIN_LOG_LEVEL" value="10" />
+      </envs>
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.experian.eda.ace.hadoop.DaRunner" />
+      <module name="ace-test-harness-hadoop" />
+      <option name="PASS_PARENT_ENVS" value="false" />
+      <option name="PROGRAM_PARAMETERS" value="-t hdfs://localhost:9000/test/tensorflow/btree1k/test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.experian.eda.ace.hadoop.csv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CSVProcessorTest.shouldLoadFile" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="ace-test-harness-hadoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.experian.eda.ace.hadoop.csv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.experian.eda.ace.hadoop.csv" />
+      <option name="MAIN_CLASS_NAME" value="com.experian.eda.ace.hadoop.csv.CSVProcessorTest" />
+      <option name="METHOD_NAME" value="shouldLoadFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="HADOOP_BIN_PATH" value="C:\devtools\hadoop-2.7.6\bin" />
+        <env name="HADOOP_CLIENT_OPTS" value="-Xmx512m -Xmx512m" />
+        <env name="HADOOP_CONF_DIR" value="c:\devtools\hadoop-2.7.6\etc\hadoop" />
+        <env name="HADOOP_DATANODE_OPTS" value="-Dhadoop.security.logger\=ERROR,RFAS -Dhadoop.security.logger\=ERROR,RFAS" />
+        <env name="HADOOP_HOME" value="C:\devtools\hadoop-2.7.6" />
+        <env name="HADOOP_IDENT_STRING" value="C55333A" />
+        <env name="HADOOP_NAMENODE_OPTS" value="-Dhadoop.security.logger\=INFO,RFAS -Dhdfs.audit.logger\=INFO,NullAppender -Dhadoop.security.logger\=INFO,RFAS -Dhdfs.audit.logger\=INFO,NullAppender" />
+        <env name="HADOOP_SECONDARYNAMENODE_OPTS" value="-Dhadoop.security.logger\=INFO,RFAS -Dhdfs.audit.logger\=INFO,NullAppender -Dhadoop.security.logger\=INFO,RFAS -Dhdfs.audit.logger\=INFO,NullAppender" />
+        <env name="HADOOP_SECURE_DN_LOG_DIR" value="\" />
+        <env name="HADOOP_SECURITY_LOGGER" value="INFO,RFAS" />
+        <env name="java.library.path" value="%PATH%;C:\devtools\hadoop-2.7.6\bin;C:\devtools\hadoop-2.7.6" />
+        <env name="TF_CPP_MIN_VLOG_LEVEL" value="10" />
+        <env name="TF_CPP_MIN_LOG_LEVEL" value="10" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DaRunner" />
+      <item itemvalue="JUnit.CSVProcessorTest.shouldLoadFile" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6543f89-e5ab-4405-bca9-db66fd421e61" name="Default Changelist" comment="" />
+      <created>1545385090945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545385090945</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CSVProcessorTest_shouldLoadFile - 2019.01.07 at 10h 57m 12s.xml">
+      <configuration name="CSVProcessorTest.shouldLoadFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVProcessorTest_shouldLoadFile - 2019.01.07 at 10h 57m 18s.xml">
+      <configuration name="CSVProcessorTest.shouldLoadFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVProcessorTest_shouldLoadFile - 2019.01.07 at 10h 57m 47s.xml">
+      <configuration name="CSVProcessorTest.shouldLoadFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVProcessorTest_shouldLoadFile - 2019.01.07 at 10h 58m 00s.xml">
+      <configuration name="CSVProcessorTest.shouldLoadFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVProcessorTest_shouldLoadFile - 2019.01.07 at 10h 58m 08s.xml">
+      <configuration name="CSVProcessorTest.shouldLoadFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVProcessorTest_shouldLoadFile - 2019.01.07 at 10h 58m 39s.xml">
+      <configuration name="CSVProcessorTest.shouldLoadFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVProcessorTest_shouldLoadFile - 2019.01.07 at 11h 15m 42s.xml">
+      <configuration name="CSVProcessorTest.shouldLoadFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVProcessorTest_shouldLoadFile - 2019.01.07 at 11h 21m 12s.xml">
+      <configuration name="CSVProcessorTest.shouldLoadFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVProcessorTest_shouldLoadFile - 2019.01.07 at 11h 22m 04s.xml">
+      <configuration name="CSVProcessorTest.shouldLoadFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVProcessorTest_shouldLoadFile - 2019.01.07 at 11h 23m 49s.xml">
+      <configuration name="CSVProcessorTest.shouldLoadFile" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.12849462" />
+      <window_info id="Structure" order="1" sideWeight="0.5014881" side_tool="true" weight="0.18924731" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5014881" side_tool="true" weight="0.18924731" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32929516" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.61021507" weight="0.5121145" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3975771" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3206751" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32987553" />
+      <window_info anchor="bottom" id="SonarLint" order="8" weight="0.32883817" />
+      <window_info anchor="bottom" id="REST Client" order="9" weight="0.32911393" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49569893" visible="true" weight="0.35132158" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.505914" side_tool="true" weight="0.34581497" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49408603" weight="0.34581497" />
+      <window_info anchor="bottom" id="Problems" order="13" sideWeight="0.49946696" weight="0.32987553" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2498678" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32942432" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32903227" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19537137" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4127844" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4057332" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SonarLint" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="REST Client" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33694476" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32827735" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2498678" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32942432" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.ideaLibSources/avro-1.7.4-sources.jar!/org/apache/avro/reflect/ReflectData.java</url>
+          <line>208</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/DaMapper.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>String.format(&quot;%s%s&quot;,file.toString().substring(0, file.toString().lastIndexOf(&quot;.&quot;)), &quot;.avro&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>String.format(&quot;%s%s&quot;,file.toString(), &quot;.avro&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>String.format(&quot;%s%s&quot;file.toString(), &quot;.avro&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>file.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>file.getName()
+file.getParent()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>file.getParent()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>file.getParent().toUri().getPath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>file.getParent().toUri()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>file</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>file.getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/devtools/hadoop-2.7.6/share/hadoop/common/lib/avro-1.7.4.jar!/org/apache/avro/reflect/ReflectDatumReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/devtools/hadoop-2.7.6/share/hadoop/common/lib/avro-1.7.4.jar!/org/apache/avro/generic/GenericRecordBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/devtools/hadoop-2.7.6/share/hadoop/common/lib/avro-1.7.4.jar!/org/apache/avro/Schema.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="51" column="31" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="2064" column="17" selection-start-line="2064" selection-start-column="17" selection-end-line="2064" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../hadoopdemo/da-hadoop-demo-1.0.1.72-18R1/source/com/experian/eda/da/alpha/PostBur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#3680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/devtools/hadoop-2.7.6/share/hadoop/common/hadoop-common-2.7.6.jar!/org/apache/hadoop/conf/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1884">
+          <caret line="238" column="11" selection-start-line="238" selection-start-column="11" selection-end-line="238" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/avro-1.7.4-sources.jar!/org/apache/avro/generic/GenericRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/avro-1.7.4-sources.jar!/org/apache/avro/generic/GenericData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="72" column="23" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/avro-1.7.4-sources.jar!/org/apache/avro/reflect/ReflectData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="344" selection-start-line="344" selection-end-line="344" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/avro-1.7.4-sources.jar!/org/apache/avro/specific/SpecificData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/avro-1.7.4-sources.jar!/org/apache/avro/reflect/ReflectDatumWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <element signature="e#1359#1360#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/avro-1.7.4-sources.jar!/org/apache/avro/generic/GenericDatumWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/devtools/hadoop-2.7.6/share/hadoop/hdfs/hadoop-hdfs-2.7.6.jar!/org/apache/hadoop/hdfs/DFSInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="465" selection-start-line="465" selection-end-line="465" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/avro-1.7.4-sources.jar!/org/apache/avro/generic/GenericRecordBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar!/com/fasterxml/jackson/databind/JsonNode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/avro-1.7.4-sources.jar!/org/apache/avro/JsonProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#1244#1261#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/devtools/hadoop-2.7.6/share/hadoop/common/lib/jackson-mapper-asl-1.9.13.jar!/org/codehaus/jackson/node/BaseJsonNode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar!/com/fasterxml/jackson/databind/node/TextNode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding>
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/avro-1.7.4-sources.jar!/org/apache/avro/file/DataFileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="256" selection-start-line="256" selection-end-line="256" />
+          <folding>
+            <element signature="e#2820#2821#0" expanded="true" />
+            <element signature="e#2846#2847#0" expanded="true" />
+            <element signature="e#2879#2880#0" expanded="true" />
+            <element signature="e#2944#2945#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/devtools/hadoop-2.7.6/share/hadoop/common/lib/jackson-mapper-asl-1.9.13.jar!/org/codehaus/jackson/node/ValueNode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/devtools/hadoop-2.7.6/share/hadoop/common/lib/jackson-mapper-asl-1.9.13.jar!/org/codehaus/jackson/node/TextNode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/devtools/hadoop-2.7.6/share/hadoop/common/lib/jackson-core-asl-1.9.13.jar!/org/codehaus/jackson/JsonNode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/avro-1.7.4-sources.jar!/org/apache/avro/Schema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="134" column="23" selection-start-line="134" selection-start-column="23" selection-end-line="134" selection-end-column="23" />
+          <folding>
+            <element signature="e#13963#13964#0" expanded="true" />
+            <element signature="e#14034#14035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/avro-1.7.4-sources.jar!/org/apache/avro/reflect/ReflectDatumReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../hadoopdemo/da-hadoop-demo-1.0.1.72-18R1/source/com/experian/eda/da/hadoop/HadoopDecisionCountReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#1357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/net/URI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="847" column="22" selection-start-line="847" selection-start-column="22" selection-end-line="847" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.0/hadoop-core-1.2.0.jar!/org/apache/hadoop/ipc/Client.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.0.0/hadoop-core-1.0.0.jar!/org/apache/hadoop/hdfs/DFSClient.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapred/jobcontrol/Job.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../hadoopdemo/da-hadoop-demo-1.0.1.72-18R1/source/com/experian/eda/da/avro/AvroPostBurCsvConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="54" column="53" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#6008#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../hadoopdemo/da-hadoop-demo-1.0.1.72-18R1/source/com/experian/eda/da/alpha/derived/Inputs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#1815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/devtools/hadoop-2.7.6/share/hadoop/common/lib/commons-cli-1.2.jar!/org/apache/commons/cli/CommandLine.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/lib/tools.jar!/sun/tools/util/CommandLine.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/lib/tools.jar!/com/sun/tools/javac/main/CommandLine.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/lib/tools.jar!/com/sun/tools/javac/main/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.0.0/hadoop-core-1.0.0.jar!/org/apache/hadoop/mapreduce/Job.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/devtools/hadoop-2.7.6/share/hadoop/common/hadoop-common-2.7.6.jar!/org/apache/hadoop/fs/Path.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tensorflow/btree1k/test1/btreeinputs.Input.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
+          <folding>
+            <element signature="e#4787#4788#0" expanded="true" />
+            <element signature="e#4813#4814#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/devtools/hadoop-2.7.6/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.6.jar!/org/apache/hadoop/mapreduce/lib/input/FileInputFormat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/devtools/hadoop-2.7.6/share/hadoop/common/hadoop-common-2.7.6.jar!/org/apache/hadoop/fs/FileSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="597" column="28" selection-start-line="597" selection-start-column="28" selection-end-line="597" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/devtools/hadoop-2.7.6/share/hadoop/common/lib/avro-1.7.4.jar!/org/apache/avro/file/DataFileWriter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tensorflow/btree1k/test1/conf.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/CSVFileInputFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../hadoopdemo/da-hadoop-demo-1.0.1.72-18R1/source/com/experian/eda/da/hadoop/HadoopDecisionCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#0#4617#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/csv/CSVProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../hadoopdemo/da-hadoop-demo-1.0.1.72-18R1/source/com/experian/eda/da/hadoop/HadoopDecisionCounterMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="25" column="63" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/DaMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="34" column="74" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5002#5003#0" expanded="true" />
+            <element signature="e#5042#5043#0" expanded="true" />
+            <element signature="e#5104#5105#0" expanded="true" />
+            <element signature="e#5148#5149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/experian/eda/ace/hadoop/DaRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="61" column="47" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3402299" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3402299" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3402299" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3402299" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ace-test-harness-hadoop</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3402299" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: asm:asm:3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3402299" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean:clean" />
+  </component>
+</project>

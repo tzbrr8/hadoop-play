@@ -1,0 +1,10 @@
+
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¨ÌëY8’Ž©”ƒ-
+nsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(€“ªµýÿÿÿÿ8ê™«”ƒ-
+Zsquid:S1854H"<Remove this useless assignment to local variable "avroFile".(·¼¹8÷¶ãÅƒ-
+]squid:UnusedPrivateMethod;"1Remove this unused private "processFiles" method.(ø¯ó8’Ž©”ƒ-
+[
+squid:S1063"9Replace this use of System.out or System.err by a logger.(²‹Äýÿÿÿÿ8ªáªÆƒ-
+]squid:S1854>":Remove this useless assignment to local variable "length".(áò¶’þÿÿÿÿ8’Ž©”ƒ-
+Psquid:S1481B"-Remove this unused "avroFile" local variable.(‰ÄËùÿÿÿÿ8÷¶ãÅƒ-
+Nsquid:S1481>"+Remove this unused "length" local variable.(áò¶’þÿÿÿÿ8’Ž©”ƒ-
