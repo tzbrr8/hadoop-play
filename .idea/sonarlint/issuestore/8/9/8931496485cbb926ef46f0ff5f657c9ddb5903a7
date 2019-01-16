@@ -1,10 +1,7 @@
 
-hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¨ÌëY8’©”ƒ-
-nsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(€“ªµıÿÿÿÿ8ê™«”ƒ-
-Zsquid:S1854H"<Remove this useless assignment to local variable "avroFile".(·¼¹8÷¶ãÅƒ-
-]squid:UnusedPrivateMethod;"1Remove this unused private "processFiles" method.(ø¯ó8’©”ƒ-
+vsquid:S2293["YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿã§-8©ÁĞß„-
 [
-squid:S1063"9Replace this use of System.out or System.err by a logger.(²‹Äıÿÿÿÿ8ªáªÆƒ-
-]squid:S1854>":Remove this useless assignment to local variable "length".(áò¶’şÿÿÿÿ8’©”ƒ-
-Psquid:S1481B"-Remove this unused "avroFile" local variable.(‰ÄËùÿÿÿÿ8÷¶ãÅƒ-
-Nsquid:S1481>"+Remove this unused "length" local variable.(áò¶’şÿÿÿÿ8’©”ƒ-
+squid:S106S"9Replace this use of System.out or System.err by a logger.(²‹Äıÿÿÿÿ8ıñšäƒ-
+Lsquid:S1172Y")Remove this unused method parameter "fs".(¬”ÓÜûÿÿÿÿ8®„®ß„-
+nsquid:S11921"KDefine a constant instead of duplicating this literal "testFolder" 6 times.(Öìùûÿÿÿÿ8”Ú¬äƒ-
+~squid:S22595"["NullPointerException" will be thrown when invoking method "createAvroFileFromInputFile()".(´µ”„ùÿÿÿÿ8äÄêƒ-

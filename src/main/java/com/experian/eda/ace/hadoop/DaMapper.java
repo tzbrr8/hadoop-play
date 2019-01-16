@@ -10,8 +10,11 @@ import com.experian.eda.framework.runtime.ace.IMappedAtomicCharacteristic;
 import com.experian.eda.framework.runtime.ace.IMappedCharacteristic;
 import com.experian.eda.framework.runtime.ace.IMappedGroupCharacteristic;
 import com.experian.eda.framework.runtime.common.exceptions.StratmanException;
+
 import org.apache.avro.generic.GenericData;
+import org.apache.avro.mapred.AvroKey;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.hadoop.fs.FSDataInputStream;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
@@ -32,12 +35,14 @@ public class DaMapper extends Mapper<AvroKey<GenericData.Record>, NullWritable, 
     private static final Logger LOGGER = LoggerFactory.getLogger(DaMapper.class);
 
     @Override
-    protected void map(<AvroKey<GenericData.Record> key, NullWritable value, Context context) throws IOException, InterruptedException {
+    protected void map(AvroKey<GenericData.Record> key, NullWritable value, Context context) throws IOException, InterruptedException {
 
         //load the model from the hadoop file system
-        final FileSystem fs = FileSystem.get(URI.create("hdfs://localhost:9000/home/testdata/tensorflow/btree1k/btrees_1k_class.zip"), context.getConfiguration());
-        final FSDataInputStream open = fs.open(new Path("hdfs://localhost:9000/home/testdata/tensorflow/btree1k/btrees_1k_class.zip"));
+        final String modelFile = String.format("%s/%s",context.getConfiguration().get("testFolder"),context.getConfiguration().get("model"));
+        final FileSystem fs = FileSystem.get(URI.create(modelFile), context.getConfiguration());
+        final FSDataInputStream open = fs.open(new Path(modelFile));
         final byte[] compressedModel = new byte[open.available()];
+
         open.readFully(compressedModel);
         open.close();
 
@@ -45,15 +50,16 @@ public class DaMapper extends Mapper<AvroKey<GenericData.Record>, NullWritable, 
         final ModelCharacteristic characteristic = ModelCharacteristicFactory.getCharacteristic(getMetaGraphDef(compressedModel));
         final RuntimeTensorFlowExecutor executor = new RuntimeTensorFlowExecutor(compressedModel, characteristic);
 
-        //initialise the input values for model
+        //initialise the input And output values for model
         final IMappedGroupCharacteristic groupCharacteristic = new MappedGroupCharacteristic();
-        groupCharacteristic.addCharacteristic("address_time", getValue(10.0));
-        groupCharacteristic.addCharacteristic("age", getValue(30.0));
-        groupCharacteristic.addCharacteristic("bank_time", getValue(10.0));
-        groupCharacteristic.addCharacteristic("income", getValue(30000.0));
+        key.datum().getSchema().getFields().forEach(fieldName -> {
+            final String fieldValue = (String) key.datum().get(fieldName.name());
+            groupCharacteristic.addCharacteristic(fieldName.name(), fieldValue.isEmpty() ? null : getValue(fieldValue));
+        });
+
 
         //add the output variables
-        characteristic.getOutputs().stream().forEach(output -> groupCharacteristic.addCharacteristic(output.getName(), getValue(getDefaultValue(output.getType()))));
+        characteristic.getOutputs().forEach(output -> groupCharacteristic.addCharacteristic(output.getName(), getValue(getDefaultValue(output.getType()))));
 
         //do the execution of the plugin
         try {
@@ -74,7 +80,7 @@ public class DaMapper extends Mapper<AvroKey<GenericData.Record>, NullWritable, 
             // add output to output file
             characteristic.getOutputs().forEach(o -> {
                 try {
-                    result.put(new Text(o.getName()), new ObjectWritable(groupCharacteristic.getAtomicCharacteristic(o.getName()).getValue().toString()));
+                    result.put(new Text(o.getName()), new ObjectWritable(String.valueOf(groupCharacteristic.getAtomicCharacteristic(o.getName()).getValue())));
                 } catch (StratmanException e) {
                     e.printStackTrace();
                 }
@@ -88,17 +94,19 @@ public class DaMapper extends Mapper<AvroKey<GenericData.Record>, NullWritable, 
         }
     }
 
-    private IMappedCharacteristic getValue(final Object input) {
+    private IMappedCharacteristic getValue(final String input) {
         return new IMappedAtomicCharacteristic() {
             private Object value = input;
 
             @Override
             public DataType getDataType() {
-                if ((input instanceof Double) || (input instanceof Float)) {
-                    return DataType.DOUBLE;
 
-                } else if ((input instanceof Integer) || (input instanceof Long)) {
-                    return DataType.LONG;
+                if (NumberUtils.isNumber(input)) {
+                    if (input.contains(".")) {
+                        return DataType.DOUBLE;
+                    } else {
+                        return DataType.LONG;
+                    }
                 }
                 return DataType.STRING;
             }
@@ -115,7 +123,14 @@ public class DaMapper extends Mapper<AvroKey<GenericData.Record>, NullWritable, 
 
             @Override
             public Object getValue() throws StratmanException {
-                return value;
+
+                if (value == null || String.valueOf(value).isEmpty())
+                    return "";
+                switch(getDataType()){
+                    case DOUBLE: return (value instanceof Float) ? ((Float) value) : Float.valueOf((String) value);
+                    case LONG: return (value instanceof Long) ? ((Long) value) : Long.valueOf((String) value);
+                    default:return value;
+                }
             }
 
             @Override
@@ -131,13 +146,13 @@ public class DaMapper extends Mapper<AvroKey<GenericData.Record>, NullWritable, 
         }
     }
 
-    private Object getDefaultValue(final DataType type) {
+    private String getDefaultValue(final DataType type) {
         switch (type) {
             case DOUBLE:
-                return 0d;
+                return "0.0";
 
             case LONG:
-                return 0l;
+                return "0";
 
             case STRING:
                 return StringUtils.EMPTY;

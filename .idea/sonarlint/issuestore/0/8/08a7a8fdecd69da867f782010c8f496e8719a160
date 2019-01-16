@@ -1,4 +1,6 @@
 
-Fsquid:S1148O"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ÐÕ½‘ƒ-
-rsquid:S2095'"OUse try-with-resources or close this "FSDataInputStream" in a "finally" clause.( ¨÷ªúÿÿÿÿ8Ž¼±”ƒ-
-Fsquid:S1148F"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ÐÕ½‘ƒ-
+Fsquid:S1148N"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Óå‹Çƒ-
+Lsquid:S1068e")Remove this unused "value" private field.(â‡Ðžùÿÿÿÿ8ú²’æ„-
+Fsquid:S1148W"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Óå‹Çƒ-
+isquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(ãó á8áª“ã„-
+rsquid:S2095)"OUse try-with-resources or close this "FSDataInputStream" in a "finally" clause.( ¨÷ªúÿÿÿÿ8Ž¼±”ƒ-

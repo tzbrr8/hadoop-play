@@ -1,2 +1,3 @@
-address_time,New Logical Data Source.age,New Logical Data Source.bank_time,New Logical Data Source.CLASSES_0,New Logical Data Source.CLASSES_1,New Logical Data Source.income,New Logical Data Source.SCORES_0,New Logical Data Source.SCORES_1
-10,30,10,,,30000,,
+New Logical Data Source.address_time,New Logical Data Source.age,New Logical Data Source.bank_time,New Logical Data Source.CLASSES_0,New Logical Data Source.CLASSES_1,New Logical Data Source.income,New Logical Data Source.SCORES_0,New Logical Data Source.SCORES_1
+10.0,30.0,10.0,,,30000.0,,
+15.0,45.0,11.0,,,550000.0,,

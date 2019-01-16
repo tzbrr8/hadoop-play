@@ -14,11 +14,13 @@ public class DaReducer extends Reducer<Text, MapWritable, String, String> {
 
         final StringBuilder resultRecord = new StringBuilder();
 
-        values.forEach(row ->
+        values.forEach(row -> {
                 row.entrySet().forEach(item ->
-                        resultRecord.append(String.format(", %s : %s", item.getKey(), ((ObjectWritable) item.getValue()).get()))));
+                        resultRecord.append(String.format(", %s : %s", item.getKey(), ((ObjectWritable) item.getValue()).get())));
+        });
 
         resultRecord.deleteCharAt(0);
+
         context.write(key.toString(), resultRecord.toString());
     }
 }

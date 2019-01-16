@@ -1,0 +1,16 @@
+# Maven 
+target/
+
+# IntelliJ project files 
+*.iml
+*.iws
+*.ipr
+.idea/**
+.idea
+
+# eclipse project file
+.settings/
+.classpath
+.project
+
+deploy.sh
